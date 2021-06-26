@@ -134,21 +134,24 @@ button:disabled {
 /* Message Composition Styles */
 
 .compose {
-    display: flex;
-    flex-shrink: 0;
+    /* display: flex; */
+    /* flex-shrink: 0; */
+    display: inline;
     margin-top: 16px;
     padding: 24px;
 }
 
 .compose form {
-    display: flex;
-    flex-grow: 1;
+    /* display: flex; */
+    /* flex-grow: 1; */
+    display: inline;
+
     margin-right: 16px;
 }
 
 .compose input {
     border: 1px solid #eeeeee;
-    width: 100%;
+    width: 80%;
     padding: 12px;
     margin: 0 16px 0 0;
     flex-grow: 1;
